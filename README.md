@@ -98,6 +98,25 @@ hybrid_ensemble.ipynb
 
 Go in the `react_agent` folder then follow the instruction there
 
+### Step 6: Data Visualization and Analysis
+
+```bash
+analysis.ipynb
+```
+
+- **Input**: Output from Step 5 (ReAct Agent predictions - CSV file with predictions)
+- **Output**:
+  - Comprehensive visualizations (confusion matrices, ROC curves, score distributions)
+  - Performance metrics comparison tables
+  - Exported CSV files with analysis results
+- **Purpose**: Visualize and analyze the prediction results to facilitate easier interpretation and insights:
+  - Compare model performance metrics (Accuracy, Precision, Recall, F1-Score, AUC)
+  - Visualize confusion matrices and ROC curves
+  - Analyze score distributions and threshold effects
+  - Track performance across different seeds
+  - Identify improved/degraded samples after LLM reasoning
+  - Generate exportable reports for presentation
+
 ## Important Notes
 
 - The code is designed to run in Kaggle environment; you may need to adjust paths if running locally
