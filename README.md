@@ -70,6 +70,9 @@ hybrid_ensemble.ipynb
 - **Output**: Lateral movement detection results
 - **Purpose**: Combine ensemble methods for lateral movement detection
 
+### Step 5: ReAct Agent
+Go in the `react_agent` folder then follow the instruction there
+
 ## Important Notes
 
 - The code is designed to run in Kaggle environment; you may need to adjust paths if running locally
